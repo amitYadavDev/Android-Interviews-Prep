@@ -1,3 +1,3 @@
 # Android-Interviews-Prep
 
-### Q1. Difference in activity and services
+### Q1. Difference b/w activity and services
