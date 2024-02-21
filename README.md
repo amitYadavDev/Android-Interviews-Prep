@@ -7,4 +7,6 @@
 
 ### Q3. How Android system Render/draw layout on screen?
 
+### Q4. Activity Launch Modes?
+
 
