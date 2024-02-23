@@ -52,6 +52,47 @@ Save essential data: Use methods like onSaveInstanceState or SavedStateHandle to
 Design your app to recover gracefully: Implement logic to handle situations where data might be lost due to process death. This can involve prompting users to refresh data or displaying appropriate error messages.
 By understanding process death and implementing proper handling techniques, you can ensure your app provides a smooth and consistent experience for users even when unexpected interruptions occur.
 
+### Q7. There are 100 data showing in recyclerview then how many times onCreateViewHolder, onBindViewHolder and viewholder are going to be called?
+In a RecyclerView with 100 data items, the number of times onCreateViewHolder, onBindViewHolder, and ViewHolder methods are called depends on several factors:
+
+1. Visibility of ViewHolders:
+
+Initially visible:
+
+onCreateViewHolder: Called only for the minimum number of ViewHolders required to fill the visible area of the RecyclerView. This is optimized for performance and memory usage.
+onBindViewHolder: Called for each of the initially visible ViewHolders to bind data to their UI elements.
+ViewHolder: Each created ViewHolder object is used exactly once during the initial rendering.
+Scrolling and recycling:
+
+As the user scrolls, more ViewHolders might need to be created and bound to display new data.
+ViewHolders that are no longer visible (scrolled out of view) are recycled and reused to display new data, avoiding unnecessary creation.
+onCreateViewHolder might be called again if additional ViewHolders are needed for scrolling or if the RecyclerView layout changes.
+onBindViewHolder is called for each visible ViewHolder on every screen refresh (including scrolling), ensuring the UI reflects the latest data.
+ViewHolder objects are reused and rebound with different data as needed during scrolling and recycling.
+2. RecyclerView LayoutManager:
+
+Different LayoutManagers (linear, grid, etc.) have different strategies for arranging and recycling ViewHolders, affecting the number of calls.
+3. Data Updates:
+
+If data changes and the adapter is notified, onBindViewHolder is called for affected ViewHolders to update their UI.
+4. Customizations:
+
+If you implement custom logic in onCreateViewHolder or onBindViewHolder, the number of calls will depend on that logic.
+Example:
+
+Assume a linear layout with 10 items visible on screen.
+On initial load:
+onCreateViewHolder: Called 10 times (one for each visible item).
+onBindViewHolder: Called 10 times (to bind data to each visible item).
+Scrolling down to reveal 5 new items:
+onCreateViewHolder: Might be called 5 times (if no reusable ViewHolders are available).
+onBindViewHolder: Called 15 times (10 for existing items, 5 for new items).
+Key Points:
+
+The exact number of calls varies based on your specific situation.
+onCreateViewHolder is called less frequently than onBindViewHolder due to recycling.
+Understanding these concepts is crucial for optimizing RecyclerView performance and memory usage.
+
 
 
 
