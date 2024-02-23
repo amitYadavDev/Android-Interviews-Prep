@@ -19,7 +19,8 @@ They persist data through events like screen rotations or device configuration c
 ViewModels don't survive process death: If the system kills your app, the entire process is terminated, including the ViewModel.
 However, there are ways to persist data across process death:
 
-#### onSaveInstanceState: You can use this method in your Activity or Fragment to save data before the process ends and restore it when the app restarts.
+#### onSaveInstanceState: 
+You can use this method in your Activity or Fragment to save data before the process ends and restore it when the app restarts.
 ViewModel + SavedStateHandle: Introduced in AndroidX Lifecycle library, you can use SavedStateHandle within your ViewModel to store and retrieve data during process death. This approach keeps your logic separate from the Activity/Fragment lifecycle.
 
 
