@@ -23,7 +23,7 @@ However, there are ways to persist data across process death:
 You can use this method in your Activity or Fragment to save data before the process ends and restore it when the app restarts.
 ViewModel + SavedStateHandle: Introduced in AndroidX Lifecycle library, you can use SavedStateHandle within your ViewModel to store and retrieve data during process death. This approach keeps your logic separate from the Activity/Fragment lifecycle.
 
-### What is process death in Android?
+### Q6. What is process death in Android?
 
 Process death in Android refers to the unexpected termination of your app's process. This means the entire system holding your app's running state and data abruptly shuts down, usually due to resource constraints or user actions.
 
