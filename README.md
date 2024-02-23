@@ -97,5 +97,43 @@ Resources::
 1. https://medium.com/@balsikandar/mastering-recyclerview-optimizations-in-android-f937919d4dd7
 
 
+### Q8. How to send data from child fragment to parent fragment?
+
+There are several ways to send data from a child fragment to its parent fragment in Android, each with its own advantages and disadvantages. Here are some common methods:
+
+1. Interfaces:
+
+Define an interface in the parent fragment that declares a method to receive the data.
+Implement this interface in the child fragment and call the method when you have data to send.
+This is a clean and decoupled approach, but requires more code and can be cumbersome for complex data structures.
+2. Shared ViewModel:
+
+Use a ViewModel shared between the parent and child fragments.
+Both fragments can access and modify data in the ViewModel to share information.
+This avoids tight coupling and is well-suited for data that needs to be shared across multiple fragments.
+Requires understanding of ViewModel architecture and LiveData.
+3. Activity as Mediator:
+
+Access the parent Activity from the child fragment and call a method on the Activity to pass the data.
+The Activity can then forward the data to the parent fragment.
+This can be simpler than interfaces but can lead to tighter coupling with the Activity lifecycle.
+4. Back Stack and Result Callbacks:
+
+Set a result in the child fragment using getParentFragment().setResult() and include the data in the result bundle.
+When the parent fragment pops the child fragment from the back stack, it will receive the result in its onActivityResult() method.
+This method is suitable for passing data when the child fragment completes a specific task and needs to return data to the parent.
+5. Event Bus:
+
+Use a third-party library like EventBus to create a global event bus that both fragments can subscribe to.
+The child fragment can publish an event with the data, and the parent fragment can listen for the event and receive the data.
+This is useful for complex applications with multiple components that need to communicate.
+Choosing the right method:
+
+The best method depends on several factors, including:
+
+Complexity of data: Interfaces might be simpler for basic data types, while ViewModels or event buses are better for complex data structures.
+Coupling: Interfaces and Shared ViewModels are more decoupled than Activity as Mediator.
+Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while interfaces and ViewModels work well for ongoing communication.
+
 
 
