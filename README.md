@@ -93,6 +93,9 @@ The exact number of calls varies based on your specific situation.
 onCreateViewHolder is called less frequently than onBindViewHolder due to recycling.
 Understanding these concepts is crucial for optimizing RecyclerView performance and memory usage.
 
+Resources::
+1. https://medium.com/@balsikandar/mastering-recyclerview-optimizations-in-android-f937919d4dd7
+
 
 
 
