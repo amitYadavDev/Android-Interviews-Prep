@@ -136,4 +136,9 @@ Coupling: Interfaces and Shared ViewModels are more decoupled than Activity as M
 Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while interfaces and ViewModels work well for ongoing communication.
 
 
+### Q9. Let's an activity is opened and we locked and then unlocked the phone, then what lefecycle are going to be called?
+
+![Screenshot (402)](https://github.com/amitYadavDev/Android-Interviews-Prep/assets/45551012/c8106d8f-6d7c-4afb-8833-ae314a10fcbe)
+
+
 
