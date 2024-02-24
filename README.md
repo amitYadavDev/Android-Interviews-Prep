@@ -135,6 +135,8 @@ Complexity of data: Interfaces might be simpler for basic data types, while View
 Coupling: Interfaces and Shared ViewModels are more decoupled than Activity as Mediator.
 Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while interfaces and ViewModels work well for ongoing communication.
 
+### Q9. How views draw in its layout?
+
 
 ### Q9. Let's an activity is opened and we locked and then unlocked the phone, then what lefecycle are going to be called?
 
