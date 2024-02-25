@@ -143,4 +143,6 @@ Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while in
 ![Screenshot (402)](https://github.com/amitYadavDev/Android-Interviews-Prep/assets/45551012/c8106d8f-6d7c-4afb-8833-ae314a10fcbe)
 
 
+### Q10. How views are rendered in Android xml?
+
 
