@@ -145,4 +145,8 @@ Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while in
 
 ### Q10. How views are rendered in Android xml?
 
+### Q11. What do you understand by thread safe?
+
+### Q12. Diff b/w const val and val in Kotlin?
+
 
