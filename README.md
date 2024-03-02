@@ -151,4 +151,4 @@ Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while in
 
 ### Q13. hashmap vs hashtable vs hashset
 
-### Q14. Fragments
+### Q14. How ViewModels survive activity re-creation?
