@@ -154,3 +154,5 @@ Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while in
 ### Q14. How ViewModels survive activity re-creation?
 
 ### Q15. How layouts are drawn and best ways to develop efficient ui?
+
+### Q16. How do you protect an Android app from reverse engineering?
