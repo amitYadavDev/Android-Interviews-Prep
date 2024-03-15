@@ -160,6 +160,7 @@ Ans. In most cases, an app component's onCreate() method is the right place to b
 
 ### Q17. Creating a generic HashMap in Java/Kotlin
 
+
  // Creating a generic HashMap(Java)
         HashMap<String, Object> hashMap = new HashMap<>();
         // Adding key-value pairs
@@ -167,8 +168,8 @@ Ans. In most cases, an app component's onCreate() method is the right place to b
         hashMap.put("age", 30);
         hashMap.put("isStudent", true);
 
-// Kotlin
 
+// Kotlin
  // Creating a generic HashMap
     val hashMap = HashMap<String, Any>()
     // Adding key-value pairs
