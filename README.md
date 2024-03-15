@@ -155,4 +155,4 @@ Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while in
 
 ### Q15. How layouts are drawn and best ways to develop efficient ui?
 
-### Q16. How do you protect an Android app from reverse engineering?
+### Q16. Where livedata is observed? why in onCreate() why not in onResume() or onStart()
