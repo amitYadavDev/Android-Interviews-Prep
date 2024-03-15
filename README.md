@@ -156,3 +156,4 @@ Lifecycle: Back Stack and Result Callbacks are good for specific tasks, while in
 ### Q15. How layouts are drawn and best ways to develop efficient ui?
 
 ### Q16. Where livedata is observed? why in onCreate() why not in onResume() or onStart()
+Ans. In most cases, an app component's onCreate() method is the right place to begin observing a LiveData object for the following reasons: To ensure the system doesn't make redundant calls from an activity or fragment's onResume() method.
