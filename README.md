@@ -178,4 +178,4 @@ Ans. In most cases, an app component's onCreate() method is the right place to b
     hashMap["isStudent"] = true
 
 
-### Q18. How will you filter in large data set in Android or any frontend while data is coming from web services?
+### Q18. How will you filter in large data set in Android or any frontend while data is coming from web services, in case of Android data may come from local db?
