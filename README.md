@@ -183,3 +183,5 @@ Ans. In most cases, an app component's onCreate() method is the right place to b
 ### Q19. How will you handle large dataset?
 
 ### Q20. How to develop scalable app?
+
+### Q21. LiveData working and how to observe data?
