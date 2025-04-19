@@ -185,3 +185,19 @@ Ans. In most cases, an app component's onCreate() method is the right place to b
 ### Q20. How to develop scalable app?
 
 ### Q21. LiveData working and how to observe data?
+
+### Q22 What is application context? Difference between it and getContext
+
+### Q233 Different types of coroutine scopes.
+
+### Q24 What is LaunchedEffect? (Gave a scenario and i had to tell him the solution for it. The answer was via a launchedeffect)
+
+### Q25 How to handle circular dependency in multi module app and how can we avoid it.
+
+### Q26 Difference between Bluetooth and Bluetooth low energy.
+
+### Q27 How to send data from one app to another. - intents
+
+### Q28 Asked about MVVM architecture. Mvvm vs mvc vs mvi. Which is better for what case and why.
+
+### Q29 How to manage versions in multi module apps - version catalogs.
