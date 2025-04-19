@@ -244,3 +244,19 @@ Ans. In most cases, an app component's onCreate() method is the right place to b
 ### What is disposable effect?
 
 ### Suppose if I want to set 3 elements in a row in a grid in compose, what would you use?
+
+### What is intent? Why do we use it?
+
+### What is service & types of service.
+
+### Why does android app lag?
+
+### What is Dispatcher in coroutine and types of Dispatcher.
+
+
+### What is the difference between a normal class and a data class?
+
+
+### How to improve the performance of recyclerView, lazyColumn?
+
+### What is flow?
