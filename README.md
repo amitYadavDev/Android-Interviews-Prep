@@ -201,3 +201,46 @@ Ans. In most cases, an app component's onCreate() method is the right place to b
 ### Q28 Asked about MVVM architecture. Mvvm vs mvc vs mvi. Which is better for what case and why.
 
 ### Q29 How to manage versions in multi module apps - version catalogs.
+### What is the difference between java and Kotlin?
+
+### What are the features of Kotlin?
+
+### Scope functions in Kotlin.
+
+### Coroutines in Kotlin.
+
+### what is difference between kotlin coroutines and threads in java.
+
+### Difference between async and launch?
+
+### How to switch context in coroutines?
+
+### What is mvvm architecture?
+
+### What is a viewmodel?
+
+### Do we write business logic in viewmodel?
+
+### What is flow?
+
+### Difference between stateflow and sharedflow.
+
+### How to collect the latest value in the stateflow in activity?
+
+### How to pass data between activities?
+
+### What is dagger hilt?
+
+### What is @provides, @module?
+
+### What is singleton?
+
+### What is lazy, lateinit?
+
+### What are side effects in jetpack compose?
+
+### App crashes when we use lazyColumn in column how would you solve this issue?
+
+### What is disposable effect?
+
+### Suppose if I want to set 3 elements in a row in a grid in compose, what would you use?
